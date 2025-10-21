@@ -9,6 +9,9 @@ import About from "../Pages/About";
 import Skills from "../Pages/Skills";
 import Education from "../Pages/Education";
 import Contact from "../Pages/Contacts";
+import ElectionPage from "../Pages/ElectionPage";
+import { elements } from "chart.js";
+import ElectionSection from "../Pages/ElectionSection";
 
 const router = createBrowserRouter([
     {
@@ -18,14 +21,14 @@ const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                element: <Home />,  // Use element prop, not Component
+                element: <Home />,
             },
             {
                 path: "designation",
                 element: <Designation />,
             },
             {
-                path: "about",
+                path: "/about",
                 element: <About />,
             },
             {
@@ -47,6 +50,14 @@ const router = createBrowserRouter([
             {
                 path: "contact",
                 element: <Contact />,
+            },
+            {
+                path: "/",
+                element: <ElectionSection></ElectionSection>,
+            },
+            {
+                path: "/electionPage",
+                element: <ElectionPage></ElectionPage>
             },
         ],
     },
