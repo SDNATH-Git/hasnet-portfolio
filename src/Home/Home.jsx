@@ -5,13 +5,15 @@ import Skills from '../Pages/Skills';
 import Education from '../Pages/Education';
 import Projects from '../Pages/Projects';
 import Contacts from '../Pages/Contacts';
+import ElectionSection from '../Pages/ElectionSection';
 
 
 const Home = () => {
     return (
         <div id="home">
             <Designation ></Designation>
-            <About></About>
+            {/* <About></About> */}
+            <ElectionSection></ElectionSection>
             <Skills></Skills>
             <Education></Education>
             <Projects></Projects>
