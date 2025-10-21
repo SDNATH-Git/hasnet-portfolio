@@ -12,6 +12,9 @@ import Contact from "../Pages/Contacts";
 import ElectionPage from "../Pages/ElectionPage";
 import { elements } from "chart.js";
 import ElectionSection from "../Pages/ElectionSection";
+import Gallery1 from "../Pages/Gallery1";
+import Gallery2 from "../Pages/Gallery2";
+import Gallery3 from "../Pages/Gallery3";
 
 const router = createBrowserRouter([
     {
@@ -24,35 +27,24 @@ const router = createBrowserRouter([
                 element: <Home />,
             },
             {
-                path: "designation",
-                element: <Designation />,
+                path: "/skills",
+                element: <Skills></Skills>
             },
             {
-                path: "/about",
-                element: <About />,
+                path: "/gallery1",
+                element: <Gallery1></Gallery1>
             },
             {
-                path: "skill",
-                element: <Skills />,
+                path: "/gallery2",
+                element: <Gallery2></Gallery2>
             },
             {
-                path: "education",
-                element: <Education />,
+                path: "/gallery3",
+                element: <Gallery3></Gallery3>
             },
+
             {
-                path: "project",
-                element: <Projects />,
-            },
-            {
-                path: "project/:id",
-                element: <ProjectDetails />,
-            },
-            {
-                path: "contact",
-                element: <Contact />,
-            },
-            {
-                path: "/",
+                path: "/electionSection",
                 element: <ElectionSection></ElectionSection>,
             },
             {
