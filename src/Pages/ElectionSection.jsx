@@ -27,14 +27,14 @@ const ElectionSection = () => {
                 <motion.img
                     src="https://i.ibb.co.com/yn9tdWTF/club.png"
                     alt="Candidate 1"
-                    className="w-60 h-60 object-cover rounded-full bg-white shadow-[0_20px_40px_rgba(37,162,68,0.7)]"
+                    className="w-60 h-60 object-contain  rounded-full bg-white shadow-[0_20px_40px_rgba(37,162,68,0.7)]"
                     animate={{ y: [0, -15, 0] }}
                     transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
                 />
                 <motion.img
                     src="https://i.ibb.co.com/7d0Rg5F1/bag.png"
                     alt="Candidate 2"
-                    className="w-60 h-60 object-cover rounded-full shadow-[0_20px_40px_rgba(37,162,68,0.7)]"
+                    className="w-60 h-60 object-contain rounded-full shadow-[0_20px_40px_rgba(37,162,68,0.7)]"
                     animate={{ y: [-10, 10, -10] }}
                     transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
                 />

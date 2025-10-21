@@ -166,7 +166,7 @@ const Designation = () => {
                 <img
                     src={photoUrl}
                     alt="SD NATH"
-                    className="w-64 h-64  md:w-[550px] md:h-[550px] lg:w-96 lg:h-96 rounded-full border-3 border-[#25a244] object-cover shadow-2xl shadow-[#25a244] transition-transform duration-300"
+                    className="w-64 h-64  md:w-[550px] md:h-[550px] lg:w-96 lg:h-96 rounded-full border-3 border-[#25a244] object-contain shadow-2xl shadow-[#25a244] transition-transform duration-300"
                 />
             </motion.div>
 
