@@ -25,7 +25,7 @@ const Gallery1 = () => {
     const nextImage = () => setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
 
     return (
-        <div className="px-5 md:px-10 py-12">
+        <div className="px-5 md:px-10 py-16">
             {/* Title */}
             <motion.h1
                 className="text-2xl md:text-5xl font-bold mb-4 text-center text-[#ebedf0]"

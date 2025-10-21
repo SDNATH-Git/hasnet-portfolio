@@ -146,8 +146,8 @@ const technicalSkills = [
 
 const SkillsPage = () => {
     return (
-        <section className="min-h-screen  text-white py-16 px-6 md:px-16">
-            <div className="max-w-6xl mx-auto">
+        <section className="  text-white py-16 px-6 md:px-16">
+            <div className="">
 
                 {/* Title */}
                 <motion.h1

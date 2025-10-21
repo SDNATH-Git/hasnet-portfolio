@@ -181,8 +181,8 @@ const Navbar = () => {
     ];
 
     return (
-        <nav className={`fixed w-full z-50 transition-all duration-300 ${navBg ? "bg-[#093A79] shadow-lg" : "bg-transparent"}`}>
-            <div className="lg:px-10 px-5 flex justify-between items-center h-16">
+        <nav className={`fixed  w-full z-50 transition-all duration-300 ${navBg ? "bg-[#093A79] shadow-lg" : "bg-transparent"}`}>
+            <div className="lg:px-10 px-5  flex justify-between items-center h-16">
                 {/* Logo */}
                 <div onClick={() => navigate("/")} className="cursor-pointer">
                     <p className="text-2xl text-[#25a244] font-extrabold">🗳 Hasnet</p>
