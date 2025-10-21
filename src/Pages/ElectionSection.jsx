@@ -3,8 +3,9 @@ import { motion } from "framer-motion";
 
 const ElectionSection = () => {
     return (
+
         <section
-            className="relative flex flex-col items-center justify-center text-center py-20 px-6 overflow-hidden"
+            className="relative flex flex-col items-center justify-center text-center rounded-4xl mx-5 md:mx-5 lg:mx-10 overflow-hidden p-6 shadow-2xl "
             style={{
                 background: "linear-gradient(135deg, #020024 0%, #093A79 50%, #2F58C2 100%)",
                 color: "white",
@@ -24,16 +25,16 @@ const ElectionSection = () => {
             {/* Floating Images */}
             <div className="relative flex flex-wrap justify-center gap-10 mb-10 z-10">
                 <motion.img
-                    src="https://i.ibb.co/ZJchC8M/person1.png"
+                    src="https://i.ibb.co.com/yn9tdWTF/club.png"
                     alt="Candidate 1"
-                    className="w-40 h-40 object-cover rounded-full shadow-[0_20px_40px_rgba(37,162,68,0.7)]"
+                    className="w-60 h-60 object-cover rounded-full bg-white shadow-[0_20px_40px_rgba(37,162,68,0.7)]"
                     animate={{ y: [0, -15, 0] }}
                     transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
                 />
                 <motion.img
-                    src="https://i.ibb.co/SKqfZ9L/person2.png"
+                    src="https://i.ibb.co.com/7d0Rg5F1/bag.png"
                     alt="Candidate 2"
-                    className="w-40 h-40 object-cover rounded-full shadow-[0_20px_40px_rgba(37,162,68,0.7)]"
+                    className="w-60 h-60 object-cover rounded-full shadow-[0_20px_40px_rgba(37,162,68,0.7)]"
                     animate={{ y: [-10, 10, -10] }}
                     transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
                 />
@@ -52,6 +53,8 @@ const ElectionSection = () => {
                 নির্বাচন ইশতিহার
             </button>
         </section>
+
+
     );
 };
 
