@@ -9,49 +9,38 @@ import logo from "../assets/logo.png";
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-900 text-gray-300 py-6 mt-16">
+        <footer className="bg-[#093A79] text-gray-300 py-6 mt-16">
             <div className="px-6   text-center">
 
                 {/* Logo */}
                 <div className="flex justify-center py-3">
-                    <a href="#home" className="flex-shrink-0 ">
-                        <img className="w-10 h-10 cursor-pointer" src={logo} alt="Logo" />
+                    <a
+                        href="#home"
+                        className="flex-shrink-0 cursor-pointer  "
+                        onClick={() => {
+                            scroll.scrollToTop();
+                            setActiveSection("home");
+                            setIsOpen(false);
+                        }}
+                    >
+                        <p className="text-2xl text-[#25a244] font-extrabold">🗳 Hasnet </p>
                     </a>
 
                 </div>
+                <h1 className="text-xl font-bold text-white mb-2 drop-shadow-lg">
+                    PCIU Computer Club Executive Committee Election, 2025
+                </h1>
+                <p className="text- font-extrabold py-3">
+                    আপনার মূল্যবান ভোটটি{" "}
+                    <span className="text-[#05f244] text-2xl">“আবুল হাসনাত”</span> কে{" "}
+                    <span className="text-[#05f244] text-2xl">“ব্যাগ”</span> মার্কায় ভোট দিয়ে জয়যুক্ত করুন
+                </p>
 
-                <div className="flex  justify-center space-x-6 text-2xl">
-                    <a
-                        href="https://github.com/SDNATH-Git"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:text-white transition"
-                        aria-label="GitHub"
-                    >
-                        <FaGithub />
-                    </a>
-                    <a
-                        href="https://www.linkedin.com/in/sd-nath/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:text-blue-500 transition"
-                        aria-label="LinkedIn"
-                    >
-                        <FaLinkedin />
-                    </a>
-                    <a
-                        href="https://www.facebook.com/sd.nath.9400/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:text-blue-600 transition"
-                        aria-label="Facebook"
-                    >
-                        <FaFacebook />
-                    </a>
-                </div>
-                <h1 className="py-2">MERN Stack Developer</h1>
+
                 <hr />
-                <p className="mb-4 md:mb-0">&copy; {new Date().getFullYear()} sd nath. All rights reserved.</p>
+                <p className="text-[#05f244] font-bold">
+                    Election Date: 25 October, 2025
+                </p>
 
 
             </div>

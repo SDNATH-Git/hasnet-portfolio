@@ -66,8 +66,7 @@ const Navbar = () => {
                         setIsOpen(false);
                     }}
                 >
-                    {/* <img className="w-10 h-10 " src={logo} alt="Logo" /> */}
-                    <p className="text-xl text-[#25a244] font-extrabold"><>Hasnet </></p>
+                    <p className="text-2xl text-[#25a244] font-extrabold">🗳 Hasnet </p>
                 </a>
 
                 {/* Desktop menu */}
