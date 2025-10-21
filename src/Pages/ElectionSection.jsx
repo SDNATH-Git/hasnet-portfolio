@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { useNavigate } from "react-router-dom"; // ✅ সঠিক ইমপোর্ট
+import { useNavigate } from "react-router-dom";
 
 const ElectionSection = () => {
-    const navigate = useNavigate(); // ✅ navigate ডিফাইন করো
+    const navigate = useNavigate();
 
     return (
         <section

@@ -51,7 +51,7 @@ const imageAnimation = {
 
 const Designation = () => {
     return (
-        <section className="text-white flex flex-col-reverse lg:flex-row items-center justify-between min-h-screen px-5 md:px-5 lg:px-10 py-30 gap-10 lg:gap-20">
+        <section className="text-white flex flex-col-reverse lg:flex-row items-center justify-between min-h-screen px-5 md:px-5 lg:px-10 py-14 md:py-20 gap-10 lg:gap-20">
 
             {/* Left Side - Content */}
             <motion.div
