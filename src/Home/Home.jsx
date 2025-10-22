@@ -1,10 +1,6 @@
 import React from 'react';
 import Designation from '../Pages/Designation';
-// import About from '../Pages/About';
 import Skills from '../Pages/Skills';
-// import Education from '../Pages/Education';
-// import Projects from '../Pages/Projects';
-// import Contacts from '../Pages/Contacts';
 import ElectionSection from '../Pages/ElectionSection';
 import Gallery1 from '../Pages/Gallery1';
 import Gallery2 from '../Pages/Gallery2';

@@ -28,7 +28,7 @@ const Gallery2 = () => {
         <div className="px-5 md:px-10 py-12">
             {/* Title */}
             <motion.h1
-                className="text-3xl md:text-5xl font-bold mb-3 text-center text-[#ebedf0] drop-shadow-lg"
+                className="text-3xl md:text-4xl font-bold mb-3 text-center text-[#ebedf0] drop-shadow-lg"
                 initial={{ opacity: 0, y: -30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
