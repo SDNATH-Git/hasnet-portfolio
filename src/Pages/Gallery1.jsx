@@ -28,12 +28,12 @@ const Gallery1 = () => {
         <div className="px-5 md:px-10 py-16">
             {/* Title */}
             <motion.h1
-                className="text-2xl md:text-5xl font-bold mb-4 text-center text-[#ebedf0]"
+                className="text-2xl md:text-4xl font-bold mb-4 text-center text-[#ebedf0]"
                 initial={{ opacity: 0, y: -30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
             >
-                Co-Curricular Excellence & Leadership Showcase
+                Co-Curricular activities & leadership and team work
             </motion.h1>
             <motion.p
                 className="text-center text-xs md:text-xl text-white mb-12"

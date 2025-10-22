@@ -5,7 +5,7 @@ import {
     FaTwitter,
     FaFacebook,
 } from "react-icons/fa";
-import logo from "../assets/logo.png";
+
 
 const Footer = () => {
     return (
@@ -23,17 +23,17 @@ const Footer = () => {
                             setIsOpen(false);
                         }}
                     >
-                        <p className="text-2xl text-[#25a244] font-extrabold">🗳 Hasnet </p>
+                        <p className="text-2xl text-[#25a244] font-extrabold">🗳 Hasnat </p>
                     </a>
 
                 </div>
                 <h1 className="text-xl font-bold text-white mb-2 drop-shadow-lg">
                     PCIU Computer Club Executive Committee Election, 2025
                 </h1>
-                <p className="text- font-extrabold py-3">
+                <p className=" font-extrabold py-3">
                     আপনার মূল্যবান ভোটটি{" "}
-                    <span className="text-[#05f244] text-2xl">“আবুল হাসনাত”</span> কে{" "}
-                    <span className="text-[#05f244] text-2xl">“ব্যাগ”</span> মার্কায় ভোট দিয়ে জয়যুক্ত করুন
+                    <span className="text-[#05f244] md:text-2xl">“আবুল হাসনাত”</span> কে{" "}
+                    <span className="text-[#05f244] md:text-2xl">“ব্যাগ”</span> মার্কায় ভোট দিয়ে জয়যুক্ত করুন
                 </p>
 
 

@@ -129,6 +129,9 @@ const ElectionPage = () => {
                         <span className="text-[#05f244] text-2xl">“আবুল হাসনাত”</span> কে{" "}
                         <span className="text-[#05f244] text-2xl">“ব্যাগ”</span> মার্কায় ভোট দিয়ে জয়যুক্ত করুন
                     </p>
+                    <p className="text-white text-lg md:text-3xl font-extrabold">
+                        “ সাধারণ সম্পাদক পদে....”
+                    </p>
                     <p className="text-[#05f244] text-lg md:text-2xl font-bold">
                         Election Date: 25 October, 2025
                     </p>
